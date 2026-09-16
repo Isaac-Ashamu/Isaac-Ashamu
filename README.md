@@ -1,10 +1,14 @@
 # Hi, I'm Inioluwa Isaac Ashamu 👋
 
-MSc Artificial Intelligence graduate building practical AI, machine learning, and decision-support systems.
+MSc Artificial Intelligence (Distinction) graduate building data platforms, practical AI and decision-support systems that get used.
 
 I’m interested in AI systems that move beyond notebooks into usable tools: medical imaging workflows, explainable ML, route-aware decision support, multi-agent simulation, and human-in-the-loop operational systems.
 
 ## Featured Projects
+
+### [UK Grid Carbon Lakehouse](https://github.com/Isaac-Ashamu/uk-grid-carbon-lakehouse)
+
+Production-shaped medallion lakehouse over the National Grid ESO Carbon Intensity API and Open-Meteo: append-only bronze with SHA-256 manifests, pandera-validated Parquet silver with a quarantine, DuckDB views, 20 dbt models with 61 tests, Postgres serving (COPY + upsert), a FastAPI read API, Airflow DAGs with catchup and a quality gate, Docker Compose, GitHub Actions CI and a nightly live run. Backfilled 90 days and quantified ESO's day-ahead forecast error and weather-to-generation correlations by region.
 
 ### [L3 Sarcopenia CT Analysis](https://github.com/Isaac-Ashamu/l3-sarcopenia-ct-analysis)
 
@@ -32,7 +36,8 @@ C# data-structures project implementing a binary-search-tree text indexer with s
 
 ## Technical Focus
 
-**Machine Learning & AI:** PyTorch, scikit-learn, YOLOv8, OpenCV, SHAP
+**Data Engineering:** Parquet, DuckDB, dbt, Airflow, Postgres, pandera, Docker, GitHub Actions
+**Machine Learning & AI:** PyTorch, scikit-learn, YOLOv8, OpenCV, SHAP, Gemini API
 **Data & Scientific Computing:** pandas, NumPy, matplotlib, Jupyter
 **Medical Imaging:** DICOM, NIfTI, SimpleITK, segmentation workflows
 **Software & Tools:** Python, C#, SQL, Streamlit, Git, GitHub
@@ -40,7 +45,7 @@ C# data-structures project implementing a binary-search-tree text indexer with s
 
 ## Current Focus
 
-I’m currently building a staff/session allocation recommender that combines constraints, scoring, travel feasibility, explainability, and human review for operational decision support.
+At Time Specialist Support I built the organisation's first data and automation systems: an explainable staff/session allocation engine (constraints, scoring, travel feasibility, human review), a Gemini-powered safeguarding monitor, an OCR-to-JSON profile pipeline and return-to-work automation. Open to data engineering and AI engineering roles in Manchester and across the UK.
 
 ## Contact
 
